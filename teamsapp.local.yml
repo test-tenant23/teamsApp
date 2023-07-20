@@ -18,8 +18,8 @@ provision:
   - uses: script 
     with:
       run:
-        echo "::set-teamsfx-env TAB_DOMAIN=blue-mud-03a828a1e.3.azurestaticapps.net";
-        echo "::set-teamsfx-env TAB_ENDPOINT=https://blue-mud-03a828a1e.3.azurestaticapps.net";
+        echo "::set-teamsfx-env TAB_DOMAIN=-purple-sea-07c1a931e.3.azurestaticapps.net";
+        echo "::set-teamsfx-env TAB_ENDPOINT=https://purple-sea-07c1a931e.3.azurestaticapps.net";
   # Validate using manifest schema
   - uses: teamsApp/validateManifest
     with:
