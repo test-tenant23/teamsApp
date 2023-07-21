@@ -8,7 +8,7 @@
         "dev:teamsfx": "env-cmd --silent -f .localConfigs npm run dev",
         "dev": "func start --typescript --language-worker=\"--inspect=9229\" --port \"7071\" --cors \"*\"",
         "watch:teamsfx": "tsc --watch",
-        "build": "tsc",
+        "build": "azure",
         "watch": "tsc -w",
         "prestart": "npm run build",
         "start": "npx func start"
